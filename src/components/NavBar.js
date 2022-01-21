@@ -1,9 +1,9 @@
 import logo from "../media/logo_small.png";
-
+import CartWidget from "./CartWidget";
 const NavBar = () => {
   return (
     <>
-      <ul className="menu__principal">
+      <nav className="menu__principal">
         <img className="menu__logo" src={logo} alt="menu__logo" />
         <li className="menu__principal-categoria">
           <a className="Inicio" href="#">
@@ -25,7 +25,8 @@ const NavBar = () => {
             Accesorios
           </a>
         </li>
-      </ul>
+        <CartWidget></CartWidget>
+      </nav>
     </>
   );
 };
