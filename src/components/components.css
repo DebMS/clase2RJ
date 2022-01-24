@@ -22,3 +22,20 @@
   border-radius: 1rem;
   border: solid rgb(241, 112, 95);
 }
+
+.contadorProductos {
+  display: flex;
+  justify-content: space-between;
+}
+.aumentar {
+  background-color: coral;
+  border: none;
+  cursor: pointer;
+  width: 2rem;
+}
+.decrementar {
+  background-color: coral;
+  border: none;
+  cursor: pointer;
+  width: 2rem;
+}

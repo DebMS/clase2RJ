@@ -12,16 +12,22 @@ function App() {
           greeting="OFERTA!!"
           producto="Remera"
           precio="$1500"
+          stock={20}
+          initial={3}
         />
         <ItemListContainer
           greeting="OFERTA!!"
           producto="Pantalon"
           precio="$1500"
+          stock={30}
+          initial={1}
         />
         <ItemListContainer
           greeting="OFERTA!!"
           producto="Zapatilla"
           precio="$1500"
+          stock={10}
+          initial={2}
         />
       </div>
     </>
